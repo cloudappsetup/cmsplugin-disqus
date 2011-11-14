@@ -30,6 +30,8 @@ following context variables:
 * ``DISQUS_SHORTNAME``: The value of the ``DISQUS_SHORTNAME`` setting, used by
   `Disqus`_ to identify your site.
 * ``instance``: The plugin instance used to render the template.
+* ``developermode``: The value of the ``DEBUG`` setting, can be used to turn on
+  the `Disqus`_ developer mode for testing.
 
 The context is inherited from the main context used to render the page,
 therefore you also get all context variables from your template context
